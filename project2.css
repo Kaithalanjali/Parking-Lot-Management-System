@@ -1,0 +1,104 @@
+*{
+    margin: 0px 0px;
+    /* color: rgb(255, 255, 255); */
+    
+}
+html{
+    background: url(parking3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+ #head{
+    overflow: hidden;
+  background-color:rgb(39, 38, 38);
+  position: fixed;
+  top: 0;
+  width: 100%;
+} 
+.navi{
+  color: rgb(248, 249, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navi div{
+    flex: 1;
+}
+.cent{
+    text-align: center;
+    height:60px;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+.form{
+   text-align: center;
+   display: block;
+   width: 70%;
+   margin: 11px auto;
+   border-radius: 20px;
+   background-color: rgb(116, 119, 119);
+   color: rgb(239, 245, 250);
+   font-size: 1em;
+   text-align: center;
+  }
+  ul{
+      list-style: none;
+   padding: 0px ;
+  }
+ .btn{
+     background-color: rgb(54, 54, 54);
+     color: rgb(255, 255, 255);
+     font-size: 0.8em;
+     cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    padding: 4px;
+ }
+ li{
+     margin: 10px;
+ }
+ .reg{
+     padding-top: 80px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+ }
+
+ .table{
+     margin: 5px auto;
+     background-color: rgb(116, 119, 119);
+     display: block;
+     width: 80%;
+     padding: 10px;
+     border-radius: 12px;
+ }
+ th{
+     width: 500px;
+     color: rgb(239, 245, 250);
+     font-size: 1.2em;
+ }
+ tr{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1em;
+  
+ }
+ td{
+     padding: 2px;
+ }
+ .close{
+    color: white;
+    font-size: 15px;
+    /* position: relative; */
+    display: flex;
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+    
+ }
+ #myBtn{
+     padding: 8px;
+ }
