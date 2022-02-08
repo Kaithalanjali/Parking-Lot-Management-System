@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+    <link rel="stylesheet" href="project2.css">
+    
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header" >
+            <div class="navi" id="head">
+                <div class="cent">
+                    Parking Lot Registration Portal
+                </div>
+            </div>
+        </header>
+        <div class="reg">
+            <button  class="btn" id="myBtn">Registered Vehicles</button>
+        </div>
+        <div class="table" id="display">
+            <span class="close">&times;</span>
+            <table id="tasksTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Vehicle Name</th>
+                    <th>Vehicle No.</th>
+                    <th>Entry Date</th>
+                    <th>Exit Date</th>
+                </tr>
+            </table>
+        </div>
+        <div class="form" id="myModal">
+           
+            <div class="modal-content">
+
+                <div class="modal-header">
+                <br>
+
+                    <h3>Enter details for Vehicle Registration</h3>
+                </div>
+
+                <div class="modal-body">
+                    <form style="padding: 28px 50px"  id="new">
+                        <tr>
+                            <td style="width:150px">Name:</td>
+                            <td><input type="text" name="name" id="name1" style="width: -webkit-fill-available"
+                                placeholder="Name"></td>
+                        </tr>
+                        <tr>
+                            <td style="width:150px">
+                                Vehicle name:
+                            </td>
+                            <td>
+                                <input type="text" name="desc" id="name2" style="width: -webkit-fill-available" placeholder="Vehicle name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:150px">Vehicle Num:</td>
+                            <td><input type="tel" id="name3" id="name3" style="width: -webkit-fill-available"
+                                    placeholder="Vehicle number"></td>
+                        </tr>
+                        <tr>
+                            <td style="width:150px">Entry Date:</td>
+                            <td><input type="date" name="name4" id="name4" style="width: -webkit-fill-available"
+                                    placeholder="Entry date"></td>
+                        </tr>
+                        <tr>
+                            <td style="width:150px">Exit Date:</td>
+                            <td><input type="date" name="name5" id="name5" style="width: -webkit-fill-available"
+                                    placeholder="Exit date"></td>
+                        </tr>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" value="submit"  onclick="addTasks()" class="btn">SUBMIT</button>
+                    <button type="reset" class="btn" style="background-color: brown" onclick="rs()">Clear</button>
+                </div>
+                
+             <br>
+            </div>
+        </div>
+        <div class="form">
+
+                <h3>List of available vehicles in the Parking lot</h3>
+            </div>
+        <div class="table" style="margin: 20px auto; width: 90%;">
+            <table id="tasksTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Vehicle Name</th>
+                    <th>Vehicle No.</th>
+                   
+                </tr>
+                <tr>
+                    <td>Anjali</th>
+                        <td>Maruti</th>
+                    <td>UP70-5010</th>
+                   
+                </tr>
+                <tr>
+                    <td>Nisha</th>
+                        <td>Wagnor</th>
+                    <td>UP70-0510</th>
+                   
+                </tr>
+                <tr>
+                    <td>Ashutosh</th>
+                        <td>Toyota</th>
+                    <td>UP70-5001</th>
+                   
+                </tr>
+                <tr>
+                    <td>Komal</th>
+                        <td>Honda</th>
+                    <td>UP70-1005</th>
+                   
+                </tr>
+               
+            </table>
+        </div>
+
+    </div>
+
+    <script src="project.js"></script>
+</body>
+
+</html>
